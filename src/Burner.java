@@ -1,4 +1,3 @@
-//Rachel Castro
 public class Burner {
 	//members
 	public enum Temperature {
@@ -22,15 +21,18 @@ public class Burner {
 	
 	//constructors
 	public Burner(){
-		mySetting = Setting.OFF;
-		myTemperature = Temperature.COLD; 
-		timer = TIME_DURATION;
+		super();
+		this.mySetting = Setting.OFF;
+		this.myTemperature = Temperature.COLD; 
 	}
 	
 	//methods
 	
 	//raises the setting one notch
 	public void plusButton() {
+		//reset timer
+		timer = TIME_DURATION;
+		
 		switch(mySetting) {
 		case OFF:
 			mySetting = Setting.LOW;
@@ -45,15 +47,15 @@ public class Burner {
 			mySetting = Setting.HIGH;
 			break; 
 		}
-		timer = TIME_DURATION; 
-		return;
+		
 	}
 	
 	//lowers the setting one notch
 	public void minusButton() {
+		timer = TIME_DURATION;
+		
 		switch(mySetting) {
 		case OFF:
-			mySetting = Setting.OFF;
 			break;
 		case LOW:
 			mySetting = Setting.OFF; 
@@ -65,16 +67,15 @@ public class Burner {
 			mySetting = Setting.MEDIUM;
 			break; 
 		}
-		timer = TIME_DURATION; 
-		return;
 	}
 	
 	//called to update the burner every minute
-	private void updateTemperature() {
+	public void updateTemperature() {
 		//timer update
 		timer--;
 		//temperature update
 		if (timer == 0) {
+			
 			//increase temperature by 1
 			switch(myTemperature) {
 				case COLD:

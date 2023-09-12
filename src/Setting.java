@@ -2,23 +2,24 @@
 //Controls the enum for which setting each burner is on
 //Katie Bruce and Rachel Castro
 //9/7/23
-package enumdemo;
+public enum Setting {
+	
+	//initialize enum temperatures
+    OFF("---"), LOW("--+"), MEDIUM("-++"), HIGH("+++");
+	
+    private String setting;
 
-public class Setting {
-    private enum Setting {OFF("---"), LOW("--+"), MEDIUM("-++") and HIGH("+++")}
-    private Setting setting;
-    private String settingOutput;
-
-    Setting(Setting settingInput){
-        setting = settingInput();
+    //setter
+    Setting(String setting){
+        this.setting = setting;
     }
 
-    public Setting getSetting(){
-        return this.setting;
-    }
-
+    //toString method
+    @Override
     public String toString() {
         return setting;
     }
 
 }
+
+	
