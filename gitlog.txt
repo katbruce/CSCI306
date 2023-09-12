@@ -1,0 +1,47 @@
+commit 320a5b1988aa6fb15c77356f99d1f94a08031628
+Author: Kathryn <kathrynbruce7@gmail.com>
+Date:   Mon Sep 11 23:08:01 2023 -0600
+
+    debugging and comments
+
+commit 107cbb07f457d3a6f69c430b8ac0db9d09005deb
+Merge: 942d515 0e1cf04
+Author: Rachel Castro <94096212+rocky-mtn-high@users.noreply.github.com>
+Date:   Thu Sep 7 12:04:23 2023 -0600
+
+    Merge pull request #3 from rocky-mtn-high/rc/stove
+    
+    Burner Class
+
+commit 0e1cf04832740e1c8f6c506e8f931e3b21a480e2
+Author: rhcastro <94096212+rocky-mtn-high@users.noreply.github.com>
+Date:   Thu Sep 7 12:03:25 2023 -0600
+
+    Burner Class
+
+commit 942d51545cd348a656fbf98fe71f9b37238ad1c7
+Merge: a5a5fa9 9cc5967
+Author: Rachel Castro <94096212+rocky-mtn-high@users.noreply.github.com>
+Date:   Thu Sep 7 11:58:32 2023 -0600
+
+    Merge pull request #2 from katbruce/master
+    
+    setting class
+
+commit 9cc5967d7c709626ba82eec506d1c6433c70f258
+Author: Kathryn <kathrynbruce7@gmail.com>
+Date:   Thu Sep 7 11:49:35 2023 -0600
+
+    setting class
+
+commit a5a5fa9cadc73ce64f558ef7152b7b6441542754
+Author: Rachel Castro <94096212+rocky-mtn-high@users.noreply.github.com>
+Date:   Thu Sep 7 11:14:35 2023 -0600
+
+    Create README.md
+
+commit 9fc8d5fc2369cee3a87b4767c53d110c1e39486f
+Author: rhcastro <94096212+rocky-mtn-high@users.noreply.github.com>
+Date:   Thu Sep 7 10:57:43 2023 -0600
+
+    First commit
