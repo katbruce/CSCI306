@@ -1,3 +1,7 @@
+//Burner: class to control individual burner temps and settings
+//rachel castro and katie bruce
+//9/7/23
+
 public class Burner {
 	//members
 	public enum Temperature {
